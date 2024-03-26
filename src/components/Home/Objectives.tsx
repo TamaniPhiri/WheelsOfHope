@@ -14,7 +14,7 @@ const Objectives = () => {
         whileInView={{ opacity: 1 }}
         initial={{ opacity: 0 }}
         transition={{
-          delay: 0.5,
+          delay: 0.8,
           duration: 1,
         }}
         className="md:text-xl text-lg text-gray-60 max-w-sm w-full text-gray-600 md:max-w-xl lg:max-w-2xl"
