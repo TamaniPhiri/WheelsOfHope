@@ -12,7 +12,9 @@ const Vision = () => {
         />
       </div>
       <div>
-        <h1>Vision</h1>
+        <h1 className="text-center md:text-left text-4xl text-gray-700 font-bold">
+          Vision
+        </h1>
         <h1>Envisioning Care, Dignity, and Inclusion</h1>
         <div>dashes</div>
         <p>
