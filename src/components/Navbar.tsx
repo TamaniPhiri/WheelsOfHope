@@ -41,6 +41,18 @@ const NavBar = () => {
         >
           SUPPORT
         </Link>
+        <Link
+          to={"/services"}
+          className=" hover:text-[#ff6600] text-gray-700 duration-200"
+        >
+          NEWS
+        </Link>
+        <Link
+          to={"/services"}
+          className=" hover:text-[#ff6600] text-gray-700 duration-200"
+        >
+          CONTACT-US
+        </Link>
       </li>
       <button
         onClick={() => setOpen(!open)}
