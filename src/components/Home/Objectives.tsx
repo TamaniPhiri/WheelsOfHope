@@ -7,7 +7,7 @@ const Objectives = () => {
         WE <span className="text-[#2CA6A4]">CAN</span> CHANGE THE WORLD
       </h1>
       <h2 className=" text-2xl underline">Mission</h2>
-      <p className="md:text-xl text-lg text-gray-600">
+      <p className="md:text-xl text-lg text-gray-60 max-w-sm w-full md:max-w-md">
         To be a model gender based violence organization that meets the
         aspirations of the people
       </p>
@@ -44,15 +44,6 @@ const Objectives = () => {
           <p className=" text-gray-600">
             Support women's education through comprehensive adult literacy,
             vocational skills training, and accessible primary education.
-          </p>
-        </div>
-        <div className="flex items-center flex-col text-center justify-center md:p-4 shadow-md rounded-xl hover:shadow-xl py-12 duration-200 bg-[#ffcc99] bg-opacity-5">
-          <span className=" px-4 py-2 border-[#2CA6A4] my-2 font-extrabold text-gray-500 rounded-full border-4">
-            4
-          </span>
-          <p className=" text-gray-600">
-            Improve access to water and health services for women and children,
-            with a core focus on nutrition
           </p>
         </div>
         <div className="flex items-center flex-col text-center justify-center md:p-4 shadow-md rounded-xl hover:shadow-xl py-12 duration-200 bg-[#ffcc99] bg-opacity-5">
