@@ -17,7 +17,7 @@ const Objectives = () => {
         <div className=" h-3 bg-[#2CA6A4] w-8"></div>
         <div className=" h-1 bg-gray-400 w-8"></div>
       </div>
-      <div className="grid lg:grid-cols-4 text-sm md:text-base md:grid-cols-2 grid-cols-1 mt-4 w-full items-center justify-center gap-6">
+      <div className="grid lg:grid-cols-4 text-sm md:text-base md:grid-cols-2 grid-cols-1 mt-4 w-full justify-center gap-6">
         {objectives.map((item, i) => (
           <div className="flex items-center flex-col text-center justify-center md:p-4 shadow-md rounded-xl hover:shadow-xl py-12 duration-200 bg-[#ffcc99] bg-opacity-5">
             <span className=" px-4 py-2 border-[#2CA6A4] my-2 font-extrabold text-gray-500 rounded-full border-4">
