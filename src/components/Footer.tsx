@@ -1,59 +1,56 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.png";
 
 const Footer = () => {
   return (
     <footer className=" flex flex-col w-full px-4 md:px-12 py-12">
       <div className=" flex md:flex-row gap-8 justify-between flex-col items-center">
         <Link to={"/"} className="flex gap-2">
-          <img src={logo} loading="lazy" alt="logo" className=" h-12" />
-          <div className=" flex flex-col">
-            <span className=" font-bold">RELEVANT NETWORK</span>
-            <span className=" text-sm text-gray-500">Supporting the women</span>
-          </div>
+          Logo
         </Link>
-        <ul className=" text-center flex flex-col md:flex-row items-center gap-4">
-          <li>
-            <Link
-              to={"/"}
-              className=" hover:text-[#ff6600] text-gray-700 duration-200"
-            >
-              HOME
-            </Link>
-          </li>
-          <li>
-            <Link
-              to={"/about"}
-              className=" hover:text-[#ff6600] text-gray-700 duration-200"
-            >
-              ABOUT
-            </Link>
-          </li>
-          <li>
-            <Link
-              to={"/services"}
-              className=" hover:text-[#ff6600] text-gray-700 duration-200"
-            >
-              SERVICES
-            </Link>
-          </li>
-          <li>
-            <Link
-              to={"/blog"}
-              className=" hover:text-[#ff6600] text-gray-700 duration-200"
-            >
-              BLOG
-            </Link>
-          </li>
-          <li>
-            <Link
-              to={"/services"}
-              className=" hover:text-[#ff6600] text-gray-700 duration-200"
-            >
-              CONTACTS
-            </Link>
-          </li>
-        </ul>
+        <div className=" text-center flex flex-col text-sm lg:flex-row items-center gap-4">
+          <Link
+            to={"/"}
+            className=" hover:text-[#ff6600] text-gray-700 duration-200"
+          >
+            HOME
+          </Link>
+          <Link
+            to={"/about"}
+            className=" hover:text-[#ff6600] text-gray-700 duration-200"
+          >
+            ABOUT
+          </Link>
+          <Link
+            to={"/services"}
+            className=" hover:text-[#ff6600] text-gray-700 duration-200"
+          >
+            RESOURCES
+          </Link>
+          <Link
+            to={"/blog"}
+            className=" hover:text-[#ff6600] text-gray-700 duration-200"
+          >
+            GET-INVOLVED
+          </Link>
+          <Link
+            to={"/services"}
+            className=" hover:text-[#ff6600] text-gray-700 duration-200"
+          >
+            SUPPORT
+          </Link>
+          <Link
+            to={"/services"}
+            className=" hover:text-[#ff6600] text-gray-700 duration-200"
+          >
+            NEWS
+          </Link>
+          <Link
+            to={"/services"}
+            className=" hover:text-[#ff6600] text-gray-700 duration-200"
+          >
+            CONTACT-US
+          </Link>
+        </div>
         <ul className=" flex items-center gap-4">
           <li>
             <svg
