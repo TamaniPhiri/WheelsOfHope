@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className=" flex flex-col w-full px-4 md:px-12 py-12">
       <div className=" flex md:flex-row gap-8 justify-between flex-col items-center pb-4">
         <Link to={"/"} className="flex gap-2">
-          Logo
+          The Wheels Of Hope
         </Link>
         <div className=" text-center flex flex-col text-sm lg:flex-row items-center gap-4">
           <Link
