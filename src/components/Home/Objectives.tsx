@@ -24,7 +24,7 @@ const Objectives = () => {
       </div>
       <div className="grid lg:grid-cols-4 text-sm md:text-base md:grid-cols-2 grid-cols-1 mt-4 w-full justify-center gap-6">
         {objectives.map((item, i) => (
-          <div className="flex items-center border-[#2CA6A4] border-[0.2px] flex-col text-center justify-center px-8 md:p-4 shadow-md rounded-xl hover:shadow-xl py-12 duration-200 bg-[#ffcc99] bg-opacity-5">
+          <div className="flex items-center border-[#2CA6A4] border-[0.2px] border-opacity-30 flex-col text-center justify-center px-8 md:p-4 shadow-md rounded-xl hover:shadow-xl py-12 duration-200 bg-[#ffcc99] bg-opacity-5">
             <span className=" px-4 py-2 border-[#2CA6A4] my-2 font-extrabold text-gray-500 rounded-full border-4">
               {i + 1}
             </span>
