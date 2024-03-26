@@ -9,7 +9,7 @@ const Objectives = () => {
         Dignity, and Ensuring Care
       </h1>
       <h2 className=" text-2xl underline">Mission</h2>
-      <p className="md:text-xl text-lg text-gray-60 max-w-sm w-full md:max-w-xl lg:max-w-2xl">
+      <p className="md:text-xl text-lg text-gray-60 max-w-sm w-full text-gray-600 md:max-w-xl lg:max-w-2xl">
         This mission statement encapsulates our commitment to empowering
         individuals affected by gender-based violence (GBV), supporting
         vulnerable children (OVC), and ensuring dignified care for the elderly.
