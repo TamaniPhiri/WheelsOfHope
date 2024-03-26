@@ -12,10 +12,10 @@ const Vision = () => {
         />
       </div>
       <div>
-        <h1 className="text-center md:text-left text-4xl text-gray-700 font-bold">
-          Vision
-        </h1>
-        <h1>Envisioning Care, Dignity, and Inclusion</h1>
+        <h1 className=" text-2xl underline">Vision</h1>
+        <h2 className="text-4xl text-gray-700 font-bold">
+          Envisioning Care, Dignity, and Inclusion
+        </h2>
         <div>dashes</div>
         <p>
           This vision statement embodies our commitment to creating a world
