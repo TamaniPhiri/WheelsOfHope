@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className=" flex flex-col w-full px-4 md:px-12 py-12">
       <div className=" flex md:flex-row gap-8 justify-between flex-col items-center pb-4">
         <Link to={"/"} className="flex gap-2">
-          The Wheels Of Hope
+          THE WHEELS OF HOPE
         </Link>
         <div className=" text-center flex flex-col text-sm lg:flex-row items-center gap-4">
           <Link
@@ -102,7 +102,9 @@ const Footer = () => {
         </ul>
       </div>
       <div className=" border-t w-full mt-4 flex pt-10 items-center justify-center">
-        <span className=" text-gray-600">©Copyright 2024-Wheels Of Hope</span>
+        <span className=" text-gray-600">
+          ©Copyright 2024-THE WHEELS OF HOPE
+        </span>
       </div>
     </footer>
   );
