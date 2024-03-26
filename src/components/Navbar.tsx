@@ -10,7 +10,7 @@ const NavBar = () => {
       <Link to={"/"} className="font-bold flex items-center gap-2 group">
         Wheels Of Hope
       </Link>
-      <li className="list-none gap-4 md:flex hidden">
+      <li className="list-none gap-4 lg:flex hidden">
         <Link
           to={"/"}
           className=" hover:text-[#ff6600] text-gray-700 duration-200"
@@ -27,19 +27,19 @@ const NavBar = () => {
           to={"/services"}
           className=" hover:text-[#ff6600] text-gray-700 duration-200"
         >
-          SERVICES
+          RESOURCES
         </Link>
         <Link
           to={"/blog"}
           className=" hover:text-[#ff6600] text-gray-700 duration-200"
         >
-          BLOG
+          GET-INVOLVED
         </Link>
         <Link
           to={"/services"}
           className=" hover:text-[#ff6600] text-gray-700 duration-200"
         >
-          CONTACT
+          SUPPORT
         </Link>
       </li>
       <button
