@@ -102,7 +102,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className=" border-t w-full mt-4 flex pt-10 items-center justify-center">
-        <span className=" text-gray-600">©Copyright 2024-Relevant Network</span>
+        <span className=" text-gray-600">©Copyright 2024-Wheels Of Hope</span>
       </div>
     </footer>
   );
