@@ -11,7 +11,7 @@ const Vision = () => {
           className=" w-full h-full object-cover"
         />
       </div>
-      <div>
+      <div className=" flex-col flex gap-2">
         <h1 className=" text-2xl underline">Vision</h1>
         <h2 className="text-4xl text-gray-700 font-bold md:max-w-lg">
           Envisioning <span className="text-[#2CA6A4]">Care</span> , Dignity,
@@ -22,7 +22,7 @@ const Vision = () => {
           <div className=" h-1 bg-gray-400 w-8"></div>
           <div className=" h-1 bg-gray-400 w-8"></div>
         </div>
-        <p>
+        <p className="md:text-xl text-lg text-gray-60 max-w-sm w-full text-gray-600 md:max-w-xl lg:max-w-2xl">
           This vision statement embodies our commitment to creating a world
           where individuals affected by gender-based violence (GBV), vulnerable
           children (OVC), and the elderly are empowered to lead healthy,
