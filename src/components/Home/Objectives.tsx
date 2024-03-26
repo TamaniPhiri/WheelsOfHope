@@ -4,13 +4,18 @@ import { objectives } from "../../constants/constants";
 const Objectives = () => {
   return (
     <section className="min-h-screen gap-2 w-full text-center flex flex-col bg-[#ffcc99] bg-opacity-30 items-center justify-center px-4 md:px-12 py-16">
-      <h1 className="text-center text-4xl text-gray-700 font-bold">
-        WE <span className="text-[#2CA6A4]">CAN</span> CHANGE THE WORLD
+      <h1 className="text-center text-4xl text-gray-700 font-bold md:max-w-lg">
+        Empowering <span className="text-[#2CA6A4]">Lives </span>, Fostering
+        Dignity, and Ensuring Care
       </h1>
       <h2 className=" text-2xl underline">Mission</h2>
-      <p className="md:text-xl text-lg text-gray-60 max-w-sm w-full md:max-w-md">
-        To be a model gender based violence organization that meets the
-        aspirations of the people
+      <p className="md:text-xl text-lg text-gray-60 max-w-sm w-full md:max-w-xl lg:max-w-2xl">
+        This mission statement encapsulates our commitment to empowering
+        individuals affected by gender-based violence (GBV), supporting
+        vulnerable children (OVC), and ensuring dignified care for the elderly.
+        We strive to create a culture of empowerment, dignity, and care for all
+        those we serve, without discrimination, as we work towards a society
+        where everyone can live with security and respect.
       </p>
       <div className=" flex items-center justify-center gap-2 w-full my-2">
         <div className=" h-1 bg-gray-400 w-8"></div>
