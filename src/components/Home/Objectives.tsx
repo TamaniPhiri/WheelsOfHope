@@ -37,7 +37,7 @@ const Objectives = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             initial={{ opacity: 0, scale: 0.9 }}
             transition={{
-              delay: i * 0.1,
+              delay: i * 0.2,
               duration: 1,
               type: "spring",
             }}
