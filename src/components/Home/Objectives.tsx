@@ -1,8 +1,14 @@
 import { Link } from "react-router-dom";
 import { objectives } from "../../constants/constants";
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 const Objectives = () => {
+  const [animated, setAnimated] = useState(false);
+
+  useEffect(() => {
+    setAnimated(true);
+  }, []);
   return (
     <section className="min-h-screen gap-2 w-full text-center flex flex-col items-center justify-center px-4 md:px-12 py-16">
       <h1 className="text-center text-4xl text-gray-700 font-bold md:max-w-lg">
@@ -11,8 +17,8 @@ const Objectives = () => {
       </h1>
       <h2 className=" text-2xl underline">Mission</h2>
       <motion.p
-        whileInView={{ opacity: 1 }}
-        initial={{ opacity: 0 }}
+        whileInView={animated ? { opacity: 1 } : {}}
+        initial={animated ? {} : { opacity: 0 }}
         transition={{
           delay: 0.6,
           duration: 1,
@@ -34,8 +40,8 @@ const Objectives = () => {
       <div className="grid lg:grid-cols-4 text-sm md:text-base md:grid-cols-2 grid-cols-1 mt-4 w-full justify-center gap-6">
         {objectives.map((item, i) => (
           <motion.div
-            whileInView={{ opacity: 1, scale: 1 }}
-            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={animated ? { opacity: 1, scale: 1 } : {}}
+            initial={animated ? {} : { opacity: 0, scale: 0.9 }}
             transition={{
               delay: i * 0.2,
               duration: 1,
