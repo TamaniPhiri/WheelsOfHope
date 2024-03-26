@@ -11,7 +11,7 @@ const Vision = () => {
           className=" w-full h-full object-cover"
         />
       </div>
-      <div className=" flex-col flex gap-2">
+      <div className=" flex-col flex gap-2 md:text-left text-center">
         <h1 className=" text-2xl underline">Vision</h1>
         <h2 className="text-4xl text-gray-700 font-bold md:max-w-lg">
           Envisioning <span className="text-[#2CA6A4]">Care</span> , Dignity,
