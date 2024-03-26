@@ -10,7 +10,7 @@ const Hero = () => {
         <p className="lg:max-w-xl md:text-xl text-lg text-gray-200">
           This organization is based on values of self help, self
           responsibility, democracy, equality and honest openess, social
-          responsibility and caring for others
+          responsibility and caring for others.
         </p>
         <div className="flex gap-4 items-center">
           <button className=" rounded-2xl bg-[#ffcc99] hover:bg-[#ffbc78] hover:scale-105 active:scale-95 duration-150 p-4 text-gray-700">
