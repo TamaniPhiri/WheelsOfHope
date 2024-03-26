@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { objectives } from "../../constants/constants";
+import { motion } from "framer-motion";
 
 const Objectives = () => {
   return (
@@ -9,14 +10,22 @@ const Objectives = () => {
         Dignity, and Ensuring Care
       </h1>
       <h2 className=" text-2xl underline">Mission</h2>
-      <p className="md:text-xl text-lg text-gray-60 max-w-sm w-full text-gray-600 md:max-w-xl lg:max-w-2xl">
+      <motion.p
+        whileInView={{ opacity: 1 }}
+        initial={{ opacity: 0 }}
+        transition={{
+          delay: 0.5,
+          duration: 1,
+        }}
+        className="md:text-xl text-lg text-gray-60 max-w-sm w-full text-gray-600 md:max-w-xl lg:max-w-2xl"
+      >
         This mission statement encapsulates our commitment to empowering
         individuals affected by gender-based violence (GBV), supporting
         vulnerable children (OVC), and ensuring dignified care for the elderly.
         We strive to create a culture of empowerment, dignity, and care for all
         those we serve, without discrimination, as we work towards a society
         where everyone can live with security and respect.
-      </p>
+      </motion.p>
       <div className=" flex items-center justify-center gap-2 w-full my-2">
         <div className=" h-1 bg-gray-400 w-8"></div>
         <div className=" h-3 bg-[#2CA6A4] w-8"></div>
@@ -24,12 +33,21 @@ const Objectives = () => {
       </div>
       <div className="grid lg:grid-cols-4 text-sm md:text-base md:grid-cols-2 grid-cols-1 mt-4 w-full justify-center gap-6">
         {objectives.map((item, i) => (
-          <div className="flex items-center border-[#2CA6A4] border-[0.2px] border-opacity-30 flex-col text-center justify-center px-8 md:p-4 shadow-md rounded-xl hover:shadow-xl py-12 duration-200 bg-[#ffcc99] bg-opacity-5">
+          <motion.div
+            whileInView={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0, scale: 0.9 }}
+            transition={{
+              delay: i * 0.1,
+              duration: 1,
+              type: "spring",
+            }}
+            className="flex items-center border-[#2CA6A4] border-[0.2px] border-opacity-30 flex-col text-center justify-center px-8 md:p-4 shadow-md rounded-xl hover:shadow-xl py-12 duration-200 bg-[#ffcc99] bg-opacity-5"
+          >
             <span className=" px-4 py-2 border-[#2CA6A4] my-2 font-extrabold text-gray-500 rounded-full border-4">
               {i + 1}
             </span>
             <p className=" text-gray-600">{item.obj}</p>
-          </div>
+          </motion.div>
         ))}
       </div>
       <Link
