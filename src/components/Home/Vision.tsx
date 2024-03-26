@@ -2,7 +2,7 @@ import bg from "../../assets/vision.jpg";
 
 const Vision = () => {
   return (
-    <section className=" min-h-screen bg-[#ffcc99] gap-24 grid bg-opacity-30 md:grid-cols-2 grid-cols-1 w-full px-4 md:px-12">
+    <section className=" min-h-screen bg-[#ffcc99] gap-12 py-12 grid bg-opacity-30 md:grid-cols-2 grid-cols-1 w-full px-4 md:px-12">
       <div>
         <img
           src={bg}
