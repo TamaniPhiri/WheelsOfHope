@@ -13,8 +13,9 @@ const Vision = () => {
       </div>
       <div>
         <h1 className=" text-2xl underline">Vision</h1>
-        <h2 className="text-4xl text-gray-700 font-bold">
-          Envisioning Care, Dignity, and Inclusion
+        <h2 className="text-4xl text-gray-700 font-bold md:max-w-lg">
+          Envisioning <span className="text-[#2CA6A4]">Care</span> , Dignity,
+          and Inclusion
         </h2>
         <div>dashes</div>
         <p>
