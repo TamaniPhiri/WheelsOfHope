@@ -17,7 +17,7 @@ const Vision = () => {
           Envisioning <span className="text-[#2CA6A4]">Care</span> , Dignity,
           and Inclusion
         </h2>
-        <div className=" flex items-center md:justify-center justify-start gap-2 w-full my-2">
+        <div className=" flex items-center justify-center md:justify-start gap-2 w-full my-2">
           <div className=" h-3 bg-[#2CA6A4] w-8"></div>
           <div className=" h-1 bg-gray-400 w-8"></div>
           <div className=" h-1 bg-gray-400 w-8"></div>
