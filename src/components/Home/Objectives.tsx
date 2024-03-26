@@ -29,7 +29,7 @@ const Objectives = () => {
       </div>
       <Link
         to={"/about"}
-        className=" mt-8 rounded-2xl bg-[#ffcc99] hover:bg-[#ffbc78] drop-shadow-lg hover:drop-shadow-xl hover:scale-105 active:scale-95 duration-150 p-4 text-gray-900"
+        className=" mt-8 rounded-2xl bg-[#ffcc99] hover:bg-[#ff6600] hover:text-white drop-shadow-lg hover:drop-shadow-xl hover:scale-105 active:scale-95 duration-150 p-4 text-gray-900"
       >
         Read More
       </Link>
