@@ -75,48 +75,50 @@ const NavBar = () => {
         } md:hidden top-[101%] bg-gray-200 border-t-0 max-w-7xl delay-150 duration-300 bg-opacity-[98%] backdrop-blur-md w-full inset-x-0`}
       >
         <div className=" text-2xl flex min-h-screen flex-col h-full w-full gap-4 items-center list-none">
-          <ul className=" text-center flex flex-col mt-20 gap-2">
-            <li>
-              <Link
-                to={"/"}
-                className=" hover:text-[#ff6600] text-gray-700 duration-200"
-              >
-                HOME
-              </Link>
-            </li>
-            <li>
-              <Link
-                to={"/about"}
-                className=" hover:text-[#ff6600] text-gray-700 duration-200"
-              >
-                ABOUT
-              </Link>
-            </li>
-            <li>
-              <Link
-                to={"/services"}
-                className=" hover:text-[#ff6600] text-gray-700 duration-200"
-              >
-                SERVICES
-              </Link>
-            </li>
-            <li>
-              <Link
-                to={"/blog"}
-                className=" hover:text-[#ff6600] text-gray-700 duration-200"
-              >
-                BLOG
-              </Link>
-            </li>
-            <li>
-              <Link
-                to={"/services"}
-                className=" hover:text-[#ff6600] text-gray-700 duration-200"
-              >
-                CONTACTS
-              </Link>
-            </li>
-          </ul>
+          <div className=" text-center flex flex-col mt-20 gap-2">
+            <Link
+              to={"/"}
+              className=" hover:text-[#ff6600] text-gray-700 duration-200"
+            >
+              HOME
+            </Link>
+            <Link
+              to={"/about"}
+              className=" hover:text-[#ff6600] text-gray-700 duration-200"
+            >
+              ABOUT
+            </Link>
+            <Link
+              to={"/services"}
+              className=" hover:text-[#ff6600] text-gray-700 duration-200"
+            >
+              RESOURCES
+            </Link>
+            <Link
+              to={"/blog"}
+              className=" hover:text-[#ff6600] text-gray-700 duration-200"
+            >
+              GET-INVOLVED
+            </Link>
+            <Link
+              to={"/services"}
+              className=" hover:text-[#ff6600] text-gray-700 duration-200"
+            >
+              SUPPORT
+            </Link>
+            <Link
+              to={"/services"}
+              className=" hover:text-[#ff6600] text-gray-700 duration-200"
+            >
+              NEWS
+            </Link>
+            <Link
+              to={"/services"}
+              className=" hover:text-[#ff6600] text-gray-700 duration-200"
+            >
+              CONTACT-US
+            </Link>
+          </div>
         </div>
       </div>
     </nav>
