@@ -56,7 +56,7 @@ const NavBar = () => {
       </li>
       <button
         onClick={() => setOpen(!open)}
-        className="flex md:hidden flex-col gap-3"
+        className="flex lg:hidden flex-col gap-3"
       >
         <div
           className={`w-8 h-[0.13rem] ${
