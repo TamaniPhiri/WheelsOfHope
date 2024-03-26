@@ -17,8 +17,8 @@ const Objectives = () => {
       </h1>
       <h2 className=" text-2xl underline">Mission</h2>
       <motion.p
-        whileInView={animated ? { opacity: 1 } : {}}
-        initial={animated ? {} : { opacity: 0 }}
+        whileInView={animated ? { opacity: 1, translateY: 0 } : {}}
+        initial={animated ? {} : { opacity: 0, translateY: 1 }}
         transition={{
           delay: 0.6,
           duration: 1,
