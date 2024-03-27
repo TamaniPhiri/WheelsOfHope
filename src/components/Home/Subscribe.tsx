@@ -25,7 +25,7 @@ const Subscribe = () => {
               className=" border-b flex-1 focus:outline-none w-full"
               placeholder="Enter your email"
             />
-            <button className=" rounded-2xl bg-black border border-gray-500 hover:bg-opacity-80 hover:scale-105 active:scale-95 duration-150 p-4 flex-1">
+            <button className=" rounded-2xl bg-black border text-white border-gray-500 hover:bg-opacity-80 hover:scale-105 active:scale-95 duration-150 p-4 flex-1">
               Submit
             </button>
           </div>
