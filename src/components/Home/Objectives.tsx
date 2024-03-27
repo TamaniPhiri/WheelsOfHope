@@ -23,7 +23,7 @@ const Objectives = () => {
           delay: 0.6,
           duration: 1,
         }}
-        className="md:text-xl text-lg text-gray-60 max-w-sm w-full text-gray-600 md:max-w-xl lg:max-w-2xl"
+        className="md:text-xl text-lg max-w-sm w-full text-gray-600 md:max-w-xl lg:max-w-2xl"
       >
         This mission statement encapsulates our commitment to empowering
         individuals affected by gender-based violence (GBV), supporting
