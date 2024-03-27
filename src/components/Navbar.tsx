@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from "../assets/logo.png";
 
 const NavBar = () => {
   const [open, setOpen] = useState<boolean>(false);
@@ -8,7 +9,15 @@ const NavBar = () => {
       className={`flex items-center max-w-7xl font-bold shadow-lg border-b top-0 z-50 backdrop-blur w-full justify-between px-4 md:px-12 py-6`}
     >
       <Link to={"/"} className="font-bold flex items-center gap-2 group">
-        THE WHEELS OF HOPE
+        <div className=" h-12 w-full">
+          <img
+            src={logo}
+            alt="Logo"
+            loading="lazy"
+            className=" object-cover w-full h-full"
+          />
+        </div>
+        <span> THE WHEELS OF HOPE</span>
       </Link>
       <li className="list-none gap-4 lg:flex hidden">
         <Link
