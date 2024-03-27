@@ -14,7 +14,7 @@ const Subscribe = () => {
             <div className=" h-3 bg-[#ff6600] w-8"></div>
             <div className=" h-1 bg-gray-400 w-8"></div>
           </div>
-          <div className=" w-full items-center justify-between flex md:flex-row flex-col gap-6 mt-6">
+          <div className=" w-full items-center justify-between flex md:flex-row flex-col gap-12 mt-6">
             <input
               type="text"
               className=" border-b flex-1 focus:outline-none w-full"
@@ -25,7 +25,7 @@ const Subscribe = () => {
               className=" border-b flex-1 focus:outline-none w-full"
               placeholder="Enter your email"
             />
-            <button className=" rounded-2xl bg-black border text-white border-gray-500 hover:bg-opacity-80 hover:scale-105 active:scale-95 duration-150 p-4 flex-1">
+            <button className=" rounded-2xl bg-black w-full border text-white border-gray-500 hover:bg-opacity-80 hover:scale-105 active:scale-95 duration-150 p-4 flex-1">
               Submit
             </button>
           </div>
