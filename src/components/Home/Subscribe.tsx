@@ -17,12 +17,12 @@ const Subscribe = () => {
           <div className=" w-full items-center justify-between flex md:flex-row flex-col gap-12 mt-6">
             <input
               type="text"
-              className=" border-b flex-1 focus:outline-none w-full"
+              className=" border-b flex-1 focus:outline-none w-full p-4"
               placeholder="Enter your name"
             />
             <input
               type="email"
-              className=" border-b flex-1 focus:outline-none w-full"
+              className=" border-b flex-1 focus:outline-none w-full p-4"
               placeholder="Enter your email"
             />
             <button className=" rounded-2xl bg-black w-full border text-white border-gray-500 hover:bg-opacity-80 hover:scale-105 active:scale-95 duration-150 p-4 flex-1">
