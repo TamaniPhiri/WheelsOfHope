@@ -13,7 +13,7 @@ const Hero = () => {
           responsibility and caring for others.
         </p>
         <div className="flex gap-4 items-center">
-          <button className=" rounded-2xl bg-[#ffcc99] hover:bg-[#ffbc78] hover:scale-105 active:scale-95 duration-150 p-4 text-black">
+          <button className=" rounded-2xl bg-[#ffcc99] hover:bg-[#ff6600] hover:text-white hover:scale-105 active:scale-95 duration-150 p-4 text-black">
             Donate Now
           </button>
           <button className=" rounded-2xl bg-black border border-gray-500 hover:bg-opacity-80 hover:scale-105 active:scale-95 duration-150 p-4">
