@@ -8,7 +8,7 @@ const NavBar = () => {
   const location = useLocation();
   return (
     <nav
-      className={`flex items-center max-w-7xl font-bold shadow-lg border-b top-0 z-50 backdrop-blur w-full justify-between px-4 md:px-12 py-6`}
+      className={`flex items-center max-w-7xl font-bold shadow-lg top-0 z-50 backdrop-blur w-full justify-between px-4 md:px-12 py-6`}
     >
       <Link to={"/"}>
         <img
@@ -49,7 +49,7 @@ const NavBar = () => {
       <div
         className={`absolute origin-bottom ${
           open ? "left-0" : "-left-full"
-        } md:hidden top-[101%] bg-gray-200 max-w-7xl delay-150 duration-300 bg-opacity-[98%] backdrop-blur-md w-full inset-x-0`}
+        } md:hidden top-[100%] bg-gray-200 max-w-7xl delay-150 duration-300 bg-opacity-[98%] backdrop-blur-md w-full inset-x-0`}
       >
         <div className=" text-2xl flex min-h-screen flex-col h-full w-full gap-4 items-center list-none">
           <div className="text-center flex flex-col mt-20 gap-2">
