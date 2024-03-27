@@ -20,3 +20,13 @@ export const objectives = [
     obj: "Promoting gender equality and non-discrimination, addressing the unique needs of GBV victims and vulnerable children to reduce gender disparities and vulnerabilities.",
   },
 ];
+
+export const links = [
+  { to: "/", text: "HOME" },
+  { to: "/about", text: "ABOUT" },
+  { to: "/services", text: "RESOURCES" },
+  { to: "/blog", text: "GET-INVOLVED" },
+  { to: "/services", text: "SUPPORT" },
+  { to: "/services", text: "NEWS" },
+  { to: "/services", text: "CONTACT-US" },
+];
