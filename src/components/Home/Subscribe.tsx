@@ -7,9 +7,17 @@ const Subscribe = () => {
           <p className=" text-center">
             Contribute on our charity work by your donation.
           </p>
-          <div className=" w-full items-center justify-between flex">
-            <input type="text" />
-            <input type="text" />
+          <div className=" w-full items-center justify-between flex gap-6">
+            <input
+              type="text"
+              className=" border-b flex-1"
+              placeholder="Enter your name"
+            />
+            <input
+              type="email"
+              className=" border-b flex-1"
+              placeholder="Enter your email"
+            />
             <button>Submit</button>
           </div>
         </div>
