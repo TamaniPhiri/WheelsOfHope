@@ -52,7 +52,7 @@ const Objectives = () => {
             <span className=" px-4 py-2 border-[#ff6600] my-2 font-extrabold text-gray-500 rounded-full border-4">
               {i + 1}
             </span>
-            <h1>{item.title}</h1>
+            <h1 className=" font-bold mb-4 text-gray-700">{item.title}</h1>
             <p className=" text-gray-600">{item.obj}</p>
           </motion.div>
         ))}
