@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 
 const Footer = () => {
   return (
-    <footer className=" flex flex-col w-full px-4 md:px-12 py-12">
+    <footer className=" flex flex-col w-full px-4 md:px-12 pt-10 pb-12">
       <div className=" flex md:flex-row gap-8 justify-between flex-col items-center pb-4">
         <Link to={"/"}>
           <img
