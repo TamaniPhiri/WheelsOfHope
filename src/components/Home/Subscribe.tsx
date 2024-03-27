@@ -7,7 +7,7 @@ const Subscribe = () => {
           <p className=" text-center">
             Contribute on our charity work by your donation.
           </p>
-          <div>
+          <div className=" w-full items-center justify-between flex">
             <input type="text" />
             <input type="text" />
             <button>Submit</button>
