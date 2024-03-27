@@ -1,14 +1,14 @@
 export const objectives = [
   {
-    obj: "Increase women's active and inclusive wealth creation participation by providing opportunities for decent employment/ skill development.",
+    obj: "The Wheels of Hope GBV/OVCs Coalition values the protection of GBV cases, and children, particularly orphans and vulnerable children, from violence and exploitation. The Wheels of Hope GBV/OVCs Coalition is committed to preventing, detecting, and responding to violence against women, men and children, including sexual and gender-based violence, to ensure victims’ safety and well-being.",
   },
   {
-    obj: "Support women's education through comprehensive adult literacy, vocational skills training, and accessible primary education.",
+    obj: "Empowerment and support are core values, with a focus on providing services to survivors of sexual and gender-based violence, including orphans and vulnerable children. The Wheels of Hope GBV/OVCs Coalition aims to empower young people to uphold universal human rights, combat gender-based violence, and foster a culture of respect and equality.",
   },
   {
-    obj: "Promote gender equity through programs addressing social justice, gender-based violence, and encouraging women's participation.",
+    obj: "The care and well-being of orphans and vulnerable children are central values, with a commitment to providing health care services and support to ensure their physical, emotional, and psychological well-being.",
   },
   {
-    obj: "Empower women in leadership roles by providing mentorship, leadership training, and opportunities for career advancement.",
+    obj: "The Wheels of Hope GBV/OVCs Coalition values the reduction of vulnerability to HIV infection and gender-based violence through targeted interventions and support for GBV victims, orphans and vulnerable children. The organisation aims to improve the social and health outcomes of these vulnerable populations.",
   },
 ];
