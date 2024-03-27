@@ -16,7 +16,7 @@ const Hero = () => {
           <button className=" rounded-2xl bg-[#ffcc99] hover:bg-[#ffbc78] hover:scale-105 active:scale-95 duration-150 p-4 text-black">
             Donate Now
           </button>
-          <button className=" rounded-2xl bg-black border border-white hover:bg-opacity-80 hover:scale-105 active:scale-95 duration-150 p-4">
+          <button className=" rounded-2xl bg-black border border-gray-600 hover:bg-opacity-80 hover:scale-105 active:scale-95 duration-150 p-4">
             Disover +
           </button>
         </div>
