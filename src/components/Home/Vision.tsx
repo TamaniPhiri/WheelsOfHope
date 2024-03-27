@@ -14,11 +14,11 @@ const Vision = () => {
       <div className=" flex-col flex gap-2 md:text-left text-center">
         <h1 className=" text-2xl underline">Vision</h1>
         <h2 className="text-4xl text-gray-700 font-bold md:max-w-lg">
-          Envisioning <span className="text-[#2CA6A4]">Care</span> , Dignity,
+          Envisioning <span className="text-[#ff6600]">Care</span> , Dignity,
           and Inclusion
         </h2>
         <div className=" flex items-center justify-center md:justify-start gap-2 w-full my-2">
-          <div className=" h-3 bg-[#2CA6A4] w-8"></div>
+          <div className=" h-3 bg-[#ff6600] w-8"></div>
           <div className=" h-1 bg-gray-400 w-8"></div>
           <div className=" h-1 bg-gray-400 w-8"></div>
         </div>
