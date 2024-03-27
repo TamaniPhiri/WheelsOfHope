@@ -4,8 +4,14 @@ const Footer = () => {
   return (
     <footer className=" flex flex-col w-full px-4 md:px-12 py-12">
       <div className=" flex md:flex-row gap-8 justify-between flex-col items-center pb-4">
-        <Link to={"/"} className="flex gap-2 font-bold">
-          THE WHEELS OF HOPE
+        <Link to={"/"} className="font-bold flex items-center gap-2 group">
+          <img
+            src={logo}
+            alt="Logo"
+            loading="lazy"
+            className=" object-cover w-12 md:w-16 h-full"
+          />
+          <span> THE WHEELS OF HOPE</span>
         </Link>
         <div className=" text-center flex flex-col text-sm lg:flex-row items-center gap-4">
           <Link
