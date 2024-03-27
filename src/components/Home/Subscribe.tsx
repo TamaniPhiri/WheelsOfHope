@@ -12,18 +12,18 @@ const Subscribe = () => {
             <div className=" h-3 bg-[#ff6600] w-8"></div>
             <div className=" h-1 bg-gray-400 w-8"></div>
           </div>
-          <div className=" w-full items-center justify-between flex gap-6">
+          <div className=" w-full items-center justify-between flex md:flex-row flex-col gap-6 mt-6">
             <input
               type="text"
-              className=" border-b flex-1"
+              className=" border-b flex-1 focus:outline-none"
               placeholder="Enter your name"
             />
             <input
               type="email"
-              className=" border-b flex-1"
+              className=" border-b flex-1 focus:outline-none"
               placeholder="Enter your email"
             />
-            <button>Submit</button>
+            <button className=" flex-1">Submit</button>
           </div>
         </div>
       </div>
