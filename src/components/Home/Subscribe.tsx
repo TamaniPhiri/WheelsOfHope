@@ -3,8 +3,10 @@ const Subscribe = () => {
     <section className=" relative w-full items-center justify-center px-4 md:px-12 min-h-[30vh]">
       <div className=" absolute w-full -top-24 inset-x-0 px-4 md:px-12">
         <div className="bg-white p-4 md:p-12 flex-col w-full flex justify-center items-center shadow-xl rounded-xl">
-          <h1 className=" text-center">Subscribe today</h1>
-          <p className=" text-center my-3">
+          <h1 className="text-center text-4xl font-bold md:max-w-lg">
+            Subscribe today
+          </h1>
+          <p className="md:text-xl text-lg max-w-sm w-fullmd:max-w-xl lg:max-w-2xl my-2">
             Contribute on our charity work by your donation.
           </p>
           <div className=" flex items-center justify-center gap-2 w-full my-2">
