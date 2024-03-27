@@ -15,12 +15,12 @@ const Subscribe = () => {
           <div className=" w-full items-center justify-between flex md:flex-row flex-col gap-6 mt-6">
             <input
               type="text"
-              className=" border-b flex-1 focus:outline-none"
+              className=" border-b flex-1 focus:outline-none w-full"
               placeholder="Enter your name"
             />
             <input
               type="email"
-              className=" border-b flex-1 focus:outline-none"
+              className=" border-b flex-1 focus:outline-none w-full"
               placeholder="Enter your email"
             />
             <button className=" flex-1">Submit</button>
