@@ -47,7 +47,7 @@ const Objectives = () => {
               duration: 1,
               type: "spring",
             }}
-            className="flex items-center border-[#ff6600] border-[0.2px] border-opacity-30 flex-col text-center justify-center px-8 md:p-4 shadow-md rounded-xl hover:shadow-xl py-12 duration-200 bg-[#ffcc99] bg-opacity-5"
+            className="flex items-center border-[#ff6600] border-[0.2px] border-opacity-30 flex-col text-center px-8 md:p-4 shadow-md rounded-xl hover:shadow-xl py-12 duration-200 bg-[#ffcc99] bg-opacity-5"
           >
             <span className=" px-4 py-2 border-[#ff6600] my-2 font-extrabold text-gray-500 rounded-full border-4">
               {i + 1}
