@@ -24,7 +24,7 @@ const NavBar = () => {
             key={index}
             to={link.to}
             className={`hover:text-[#ff6600] text-gray-700 duration-200 ${
-              location.pathname === link.to ? "text-[#ff6600]" : ""
+              location.pathname === link.to ? "text-[#ff6600] underline" : ""
             }`}
           >
             {link.text}
@@ -49,7 +49,7 @@ const NavBar = () => {
       <div
         className={`absolute origin-bottom ${
           open ? "left-0" : "-left-full"
-        } md:hidden top-[101%] bg-gray-200 border-t-0 max-w-7xl delay-150 duration-300 bg-opacity-[98%] backdrop-blur-md w-full inset-x-0`}
+        } md:hidden top-[101%] bg-gray-200 max-w-7xl delay-150 duration-300 bg-opacity-[98%] backdrop-blur-md w-full inset-x-0`}
       >
         <div className=" text-2xl flex min-h-screen flex-col h-full w-full gap-4 items-center list-none">
           <div className="text-center flex flex-col mt-20 gap-2">
@@ -58,7 +58,9 @@ const NavBar = () => {
                 key={index}
                 to={link.to}
                 className={`hover:text-[#ff6600] text-gray-700 duration-200 ${
-                  location.pathname === link.to ? "text-[#ff6600]" : ""
+                  location.pathname === link.to
+                    ? "text-[#ff6600] underline"
+                    : ""
                 }`}
               >
                 {link.text}
