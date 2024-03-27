@@ -6,7 +6,7 @@ const Subscribe = () => {
           <h1 className="text-center text-4xl font-bold md:max-w-lg">
             Subscribe today
           </h1>
-          <p className="md:text-xl text-lg max-w-sm w-fullmd:max-w-xl lg:max-w-2xl my-2">
+          <p className="md:text-xl text-lg max-w-sm w-fullmd:max-w-xl lg:max-w-2xl my-2 text-center">
             Contribute on our charity work by your donation.
           </p>
           <div className=" flex items-center justify-center gap-2 w-full my-2">
