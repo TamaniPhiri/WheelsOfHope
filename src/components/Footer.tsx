@@ -10,7 +10,7 @@ const Footer = () => {
             src={logo}
             alt="Logo"
             loading="lazy"
-            className=" object-cover w-16 md:w-20 h-full"
+            className=" object-cover w-16 md:w-[4.5rem] h-full hover:rotate-2 duration-200 delay-150"
           />
         </Link>
         <div className=" text-center flex flex-col text-sm lg:flex-row items-center gap-4">

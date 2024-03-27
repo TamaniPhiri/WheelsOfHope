@@ -13,7 +13,7 @@ const NavBar = () => {
           src={logo}
           alt="Logo"
           loading="lazy"
-          className=" object-cover w-16 md:w-[4.5rem] h-full"
+          className=" object-cover w-16 md:w-[4.5rem] h-full hover:rotate-2 duration-200 delay-150"
         />
       </Link>
       <li className="list-none gap-4 lg:flex hidden">
