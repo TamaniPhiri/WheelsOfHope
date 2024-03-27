@@ -1,5 +1,6 @@
 import Hero from "../components/Home/Hero";
 import Objectives from "../components/Home/Objectives";
+import SectionBottom from "../components/Home/SectionBottom";
 import Vision from "../components/Home/Vision";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <Hero />
       <Objectives />
       <Vision />
+      <SectionBottom />
     </>
   );
 };
