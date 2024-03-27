@@ -37,7 +37,7 @@ const Objectives = () => {
         <div className=" h-3 bg-[#ff6600] w-8"></div>
         <div className=" h-1 bg-gray-400 w-8"></div>
       </div>
-      <div className="grid lg:grid-cols-4 text-sm md:text-base md:grid-cols-2 grid-cols-1 mt-4 w-full justify-center gap-6">
+      <div className="grid lg:grid-cols-5 text-sm md:text-base md:grid-cols-3 grid-cols-1 mt-4 w-full justify-center gap-6">
         {objectives.map((item, i) => (
           <motion.div
             whileInView={animated ? { opacity: 1, scale: 1 } : {}}
