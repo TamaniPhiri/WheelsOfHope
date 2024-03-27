@@ -34,14 +34,9 @@ const ScrollToTop: React.FC = () => {
     >
       <button
         onClick={scrollToTop}
-        className="bg-[#ff6600] hover:bg-[#ff8000] text-white font-bold p-3 shadow-xl duration-300 hover:shadow-2xl rounded-full"
+        className="bg-black hover:bg-gray-900 text-white font-bold p-3 shadow-xl duration-300 hover:shadow-2xl rounded-full"
       >
-        <svg
-          fill="currentColor"
-          viewBox="0 0 16 16"
-          height="2em"
-          width="2em"
-        >
+        <svg fill="currentColor" viewBox="0 0 16 16" height="2em" width="2em">
           <path
             fillRule="evenodd"
             d="M8 12a.5.5 0 00.5-.5V5.707l2.146 2.147a.5.5 0 00.708-.708l-3-3a.5.5 0 00-.708 0l-3 3a.5.5 0 10.708.708L7.5 5.707V11.5a.5.5 0 00.5.5z"
