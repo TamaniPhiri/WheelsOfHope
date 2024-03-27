@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
+import { links } from "../constants/constants";
 
 const Footer = () => {
   return (
@@ -14,48 +15,17 @@ const Footer = () => {
           />
         </Link>
         <div className=" text-center flex flex-col text-sm lg:flex-row items-center gap-4">
-          <Link
-            to={"/"}
-            className=" hover:text-[#ff6600] text-gray-700 duration-200"
-          >
-            HOME
-          </Link>
-          <Link
-            to={"/about"}
-            className=" hover:text-[#ff6600] text-gray-700 duration-200"
-          >
-            ABOUT
-          </Link>
-          <Link
-            to={"/services"}
-            className=" hover:text-[#ff6600] text-gray-700 duration-200"
-          >
-            RESOURCES
-          </Link>
-          <Link
-            to={"/blog"}
-            className=" hover:text-[#ff6600] text-gray-700 duration-200"
-          >
-            GET-INVOLVED
-          </Link>
-          <Link
-            to={"/services"}
-            className=" hover:text-[#ff6600] text-gray-700 duration-200"
-          >
-            SUPPORT
-          </Link>
-          <Link
-            to={"/services"}
-            className=" hover:text-[#ff6600] text-gray-700 duration-200"
-          >
-            NEWS
-          </Link>
-          <Link
-            to={"/services"}
-            className=" hover:text-[#ff6600] text-gray-700 duration-200"
-          >
-            CONTACT-US
-          </Link>
+          {links.map((link, index) => (
+            <Link
+              key={index}
+              to={link.to}
+              className={`hover:text-[#ff6600] text-gray-700 duration-200 ${
+                location.pathname === link.to ? "text-[#ff6600] underline" : ""
+              }`}
+            >
+              {link.text}
+            </Link>
+          ))}
         </div>
         <ul className=" flex items-center gap-4">
           <li>
