@@ -1,6 +1,6 @@
 const Subscribe = () => {
   return (
-    <section className=" relative w-full items-center justify-center px-4 md:px-12 min-h-[30vh]">
+    <section className="relative w-full items-center justify-center px-4 md:px-12 md:min-h-[30vh] min-h-[40vh]">
       <div className=" absolute w-full -top-24 inset-x-0 px-4 md:px-12">
         <div className="bg-white p-4 md:p-12 flex-col w-full flex justify-center items-center shadow-xl rounded-xl">
           <h1 className="text-center text-4xl font-bold md:max-w-lg">
@@ -14,7 +14,7 @@ const Subscribe = () => {
             <div className=" h-3 bg-[#ff6600] w-8"></div>
             <div className=" h-1 bg-gray-400 w-8"></div>
           </div>
-          <div className=" w-full items-center justify-between flex md:flex-row flex-col gap-12 mt-6">
+          <div className=" w-full items-center justify-between flex md:flex-row flex-col md:gap-12 gap-6 mt-6">
             <input
               type="text"
               className=" border-b flex-1 focus:outline-none w-full p-4"
