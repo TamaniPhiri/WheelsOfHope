@@ -13,7 +13,7 @@ const NavBar = () => {
           src={logo}
           alt="Logo"
           loading="lazy"
-          className=" object-cover w-16 md:w-18 h-full"
+          className=" object-cover w-16 md:w-20 h-full"
         />
       </Link>
       <li className="list-none gap-4 lg:flex hidden">
