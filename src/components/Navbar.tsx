@@ -59,10 +59,10 @@ const NavBar = () => {
               <Link
                 key={index}
                 to={link.to}
-                className={`hover:text-[#ff6600] text-gray-700 duration-200 ${
+                className={`hover:text-[#ff6600] duration-200 ${
                   location.pathname === link.to
-                    ? "text-[#ff6600] underline"
-                    : ""
+                    ? "underline text-[#ff6600]"
+                    : "text-gray-700"
                 }`}
               >
                 {link.text}
