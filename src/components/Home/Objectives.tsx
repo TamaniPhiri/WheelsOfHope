@@ -12,7 +12,7 @@ const Objectives = () => {
   return (
     <section className="min-h-screen gap-2 w-full text-center flex flex-col items-center justify-center px-4 md:px-12 py-16">
       <h1 className="text-center text-4xl text-gray-700 font-bold md:max-w-lg">
-        Empowering <span className="text-[#ff6600]">Lives </span>, Fostering
+        Empowering <span className="text-[#ff6600]">Lives</span>, Fostering
         Dignity, and Ensuring Care
       </h1>
       <h2 className=" text-2xl underline">Mission</h2>

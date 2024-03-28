@@ -24,9 +24,9 @@ export const objectives = [
 export const links = [
   { to: "/", text: "HOME" },
   { to: "/about", text: "ABOUT" },
-  { to: "/services", text: "RESOURCES" },
-  { to: "/blog", text: "GET-INVOLVED" },
-  { to: "/services", text: "SUPPORT" },
-  { to: "/services", text: "NEWS" },
-  { to: "/services", text: "CONTACT-US" },
+  { to: "/resources", text: "RESOURCES" },
+  { to: "/get-involved", text: "GET-INVOLVED" },
+  { to: "/support", text: "SUPPORT" },
+  { to: "/news", text: "NEWS" },
+  { to: "/contact-us", text: "CONTACT-US" },
 ];
