@@ -15,7 +15,7 @@ const Subscribe = () => {
           initial={animated ? {} : { opacity: 0, translateY: 5 }}
           transition={{
             delay: 0.8,
-            duration: 1.5,
+            duration: 0.5,
           }}
           className="bg-white p-4 md:p-12 flex-col w-full flex justify-center items-center shadow-xl rounded-xl"
         >
