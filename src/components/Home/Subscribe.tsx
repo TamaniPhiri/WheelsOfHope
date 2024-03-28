@@ -11,8 +11,8 @@ const Subscribe = () => {
     <section className="relative w-full items-center justify-center px-4 md:px-12 md:min-h-[35vh] min-h-[40vh]">
       <div className=" absolute w-full -top-24 inset-x-0 px-4 md:px-12">
         <motion.div
-          whileInView={animated ? { opacity: 1, translateY: 0 } : {}}
-          initial={animated ? {} : { opacity: 0, translateY: 5 }}
+          whileInView={animated ? { translateY: 0 } : {}}
+          initial={animated ? {} : { translateY: 5 }}
           transition={{
             delay: 0.6,
             duration: 1,
