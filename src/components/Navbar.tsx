@@ -8,14 +8,14 @@ const NavBar = () => {
   const location = useLocation();
   return (
     <nav
-      className={`flex items-center max-w-7xl font-bold shadow-lg top-0 z-50 backdrop-blur w-full justify-between px-4 md:px-12 py-6`}
+      className={`flex items-center max-w-7xl font-bold shadow-lg top-0 z-50 backdrop-blur w-full justify-between px-4 md:px-12 md:py-6 py-4`}
     >
       <Link to={"/"}>
         <img
           src={logo}
           alt="Logo"
           loading="lazy"
-          className=" object-cover w-16 md:w-[4.5rem] h-full hover:rotate-2 duration-200 delay-150"
+          className=" object-cover w-12 md:w-[4.5rem] h-full hover:rotate-2 duration-200 delay-150"
         />
       </Link>
       <div className="list-none gap-4 lg:flex hidden">
