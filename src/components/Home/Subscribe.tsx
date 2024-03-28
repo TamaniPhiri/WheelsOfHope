@@ -14,7 +14,7 @@ const Subscribe = () => {
           whileInView={animated ? { opacity: 1, translateY: 0 } : {}}
           initial={animated ? {} : { opacity: 0, translateY: 5 }}
           transition={{
-            delay: 1,
+            delay: 0.8,
             duration: 1.5,
           }}
           className="bg-white p-4 md:p-12 flex-col w-full flex justify-center items-center shadow-xl rounded-xl"

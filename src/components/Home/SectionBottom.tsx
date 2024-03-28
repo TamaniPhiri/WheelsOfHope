@@ -17,7 +17,7 @@ const SectionBottom = () => {
         whileInView={animated ? { opacity: 1 } : {}}
         initial={animated ? {} : { opacity: 0 }}
         transition={{
-          delay: 0.8,
+          delay: 0.6,
           duration: 1,
         }}
         className=" inset-0 bg-black absolute bg-opacity-75 backdrop-blur-[1px] flex flex-col items-center justify-center px-4 md:px-12 gap-4"
